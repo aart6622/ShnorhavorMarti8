@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: pink;
+    background-image: url(rose.gif);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.box {
+    width: 100%;
+    height: 700px;
+    /* border: 1px solid red;  */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.box-div {
+    width: 50%;
+    height: 700px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.h {
+    font-size: 95px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(222, 16, 33);
+    position: absolute;
+    top: 5%;
+    left: 50%;
+}
+.rose {
+    width: 250px;
+    height: 250px;
+    animation-name: rose;
+    animation-duration: 1s;
+    animation-delay: 9s;
+    animation-fill-mode: both;
+    position: absolute;
+    top: 0%;
+    left: 57%;
+    opacity: 0;
+}
+.t1 {
+    font-size: 85px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(251, 0, 134);
+    animation-name: t1;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-fill-mode: both;
+    position: absolute;
+    bottom: 10%;
+    opacity: 0;
+}
+.t2 {
+    font-size: 85px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(251, 0, 134);
+    animation-name: t2;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    animation-fill-mode: both;
+    position: absolute;
+    bottom: 20%;
+    opacity: 0;
+
+}
+ .t3 {
+    font-size: 85px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(251, 0, 134);
+    animation-name: t3;
+    animation-duration: 1s;
+    animation-delay: 3s;
+    animation-fill-mode: both;
+    position: absolute;
+    bottom: 30%;
+    opacity: 0;
+
+}
+.t4 {
+    font-size: 85px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(251, 0, 134);
+    animation-name: t4;
+    animation-duration: 1s;
+    animation-delay: 4s;
+    animation-fill-mode: both;
+    position: absolute;
+    bottom: 40%;
+    opacity: 0;
+}
+.t5 {
+    font-size: 85px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(251, 0, 134);
+    animation-name: t5;
+    animation-duration: 1s;
+    animation-delay: 5s;
+    animation-fill-mode: both;
+    position: absolute;
+    bottom: 50%;
+    opacity: 0;
+
+}
+.t6 {
+    font-size: 85px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(251, 0, 134);
+    animation-name: t6;
+    animation-duration: 1s;
+    animation-delay: 6s;
+    animation-fill-mode: both;
+    position: absolute;
+    bottom: 60%;
+    opacity: 0;
+}
+.t7 {
+    font-size: 85px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(251, 0, 134);
+    animation-name: t7;
+    animation-duration: 1s;
+    animation-delay: 7s;
+    animation-fill-mode: both;
+    position: absolute;
+    bottom: 70%;
+    opacity: 0;
+
+}
+.t8 {
+    font-size: 85px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(251, 0, 134);
+    animation-name: t8;
+    animation-duration: 1s;
+    animation-delay: 8s;
+    animation-fill-mode: both;
+    position: absolute;
+    bottom: 80%;
+    opacity: 0;
+
+}  
